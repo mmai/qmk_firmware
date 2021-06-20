@@ -1,4 +1,4 @@
-{    "version": 5,
+{    "version": 7,
     "notes": "keymap of Henri Bourcereau",
     "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
     "keyboard": "ferris/0_2",
@@ -85,10 +85,10 @@
     ],
     [
       "KC_PSLS", "KC_7", "KC_8", "KC_9", "KC_PPLS",
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+      "KC_TRNS", "KC_TRNS", "KC_DOT", "KC_NO", "KC_TRNS",
 
       "KC_0", "KC_1", "KC_2", "KC_3", "KC_PMNS",
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_NO", "KC_TRNS",
+      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
 
       "KC_PAST", "KC_4", "KC_5", "KC_6", "KC_PEQL",
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
@@ -100,7 +100,7 @@
       "KC_TRNS", "KC_TRNS", "KC_COLN", "KC_ESC", "KC_TRNS",
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_DEL",
 
-      "KC_TRNS", "KC_PERC", "KC_SLSH", "KC_ENT", "KC_TRNS",
+      "KC_CAPSLOCK", "KC_PERC", "KC_SLSH", "KC_ENT", "KC_TRNS",
       "DF(1)", "KC_LGUI", "KC_TRNS", "KC_TRNS", "KC_TRNS",
 
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_EXLM", "KC_TRNS",
@@ -116,7 +116,7 @@
       "KC_TRNS", "KC_TRNS", "RALT(KC_5)", "KC_TRNS", "KC_TRNS",
       "KC_TRNS", "KC_TRNS", "RALT(KC_QUOT)", "KC_RALT", "KC_TRNS",
 
-      "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
+      "KC_TRNS", "KC_TRNS", "RALT(KC_COMM)", "KC_TRNS", "KC_TRNS",
       "KC_TRNS", "KC_TRNS", "RALT(KC_GRV)", "RALT(KC_6)", "RALT(KC_DQUO)",
 
       "KC_TRNS", "KC_TRNS",
