@@ -1,4 +1,4 @@
-{    "version": 7,
+{    "version": 8,
     "notes": "keymap of Henri Bourcereau",
     "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
     "keyboard": "ferris/0_2",
@@ -15,8 +15,8 @@
       "LCTL_T(KC_Z)", "LGUI_T(KC_X)", "LALT_T(KC_C)", "KC_V", "KC_B",
       "KC_N", "LT(8,KC_M)", "LALT_T(KC_COMM)", "RGUI_T(KC_DOT)", "LCTL_T(KC_SLSH)",
 
-      "KC_TAB", "KC_BSPC",
-      "LT(7,KC_SPC)", "KC_ENT"
+      "KC_BSPC", "KC_TAB",
+      "KC_ENT", "LT(7,KC_SPC)"
     ],
     [
       "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
