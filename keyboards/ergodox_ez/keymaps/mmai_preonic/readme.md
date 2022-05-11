@@ -1,9 +1,7 @@
-# ErgoDox EZ Planck Configuration
+# ErgoDox EZ Default Configuration
 
 ## Changelog
 
-* Jul 2021:
-  * Mmai Plank
 * Dec 2016:
   * Added LED keys
   * Refreshed layout graphic, comes from http://configure.ergodox-ez.com now.
