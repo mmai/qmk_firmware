@@ -2,9 +2,9 @@
 init:
     qmk setup
 buildPlank:
-    make "planck/rev6:mmaiArsenik"
+    make "planck/rev6:lafayette"
 flashPlank:
-    sudo make "planck/rev6:mmaiArsenik:flash"
+    sudo make "planck/rev6:lafayette:flash"
 buildErgodox:
     make "ergodox_ez:mmaiArsenik"
 flashErgodox:
